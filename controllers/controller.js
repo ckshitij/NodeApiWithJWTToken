@@ -2,7 +2,6 @@ const User = require('../models/user.model');
 var jwt = require('jsonwebtoken');
 var bcrypt = require('bcryptjs');
 var config = require('../config');
-var verify_token = require('../Verifytoken');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
