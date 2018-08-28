@@ -4,8 +4,7 @@ const bodyParser = require('body-parser');
 const userroute = require('./routes/route'); // Imports routes for the products
 const app = express();
 const mongoose = require('mongoose');
-var jwt = require('jsonwebtoken');
-var bcrypt = require('bcryptjs');
+
 
 
 
